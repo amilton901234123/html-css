@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Seagram' ;
+            src: url('font/Seagram\ tfb.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Seagram', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi vitae fugiat eius qui vero, animi provident unde reiciendis ex tempora quidem amet rerum culpa nemo velit, atque ut saepe Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic modi adipisci suscipit laborum? Quibusdam facere perferendis id quod reprehenderit ratione quam labore, doloremque ducimus blanditiis veniam odio neque amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, nam sequi sit quam quisquam sint explicabo atque quasi natus minus? Suscipit incidunt sit voluptates veritatis beatae autem tempora obcaecati ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laborum nostrum error quo. Quasi, blanditiis natus omnis magni assumenda temporibus odio quaerat perspiciatis eaque beatae, hic dolor molestias inventore unde!</p>
+</body>
+</html>

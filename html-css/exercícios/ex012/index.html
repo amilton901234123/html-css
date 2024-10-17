@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmicas</h1>
+    <p>Abra esse site por outros dispositivos, exp:celular,computador,tablet entre outros</p>
+
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotoG.png" type="image/png">
+        <img src="imagens/fotoM.png" alt="real foto grande">
+
+        <h1>Agora Temos música no site</h1>
+        <p>Audio em HTML5:</p>
+    </picture>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Slay Well (Sting) - Gunnar Olsen.mp3" type="audio/mpeg">
+        <source src="midia/Slay Well (Sting) - Gunnar Olsen.ogg" type="audio/ogg">
+        <source src="midia/Slay Well (Sting) - Gunnar Olsen.wav" type="audio/wav">
+        <p>Seu navegador n consegue tankar audios, mas n se preocupe pois temos a opção de baixa-los <a href="midia/Slay Well (Sting) - Gunnar Olsen.mp3"></a>aqui</p>
+    </audio>
+</body>
+<h2>Hello World!</h2>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: green;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .autista {
+            background-color: rgb(11, 11, 110);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .autista::before {
+            content: '  » ';
+        }
+        
+        
+        
+        .autista::after {
+            content: ' «';
+
+        }
+
+        .autista:hover {
+            background-color: rgb(159, 159, 237);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/pvs.2k24/"    class="autista"   target="_blank">instagram</a></li>
+        <li><a href="https://www.youtube.com/@p.reizinho2019/videos" target="_blank">youtube</a></li>
+        <li><a href="https://www.facebook.com/paulinho.almeida.58511/" target="_blank">Facebook</a></li>
+    </ul>
+</body>
+</html>
